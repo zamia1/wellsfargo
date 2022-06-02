@@ -1,0 +1,10 @@
+product_name,quality,material_id,worth
+simple_object,low,1,5.0
+plain_object,medium,2,30.0
+fancy_object,high,2,70.0
+special_object,special,3,150.0
+basic_object,low,3,21.0
+regular_object,low,2,14.0
+normal_object,medium,2,30.0
+dull_object,low,1,7.0
+broken_object,low,1,2.0

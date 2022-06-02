@@ -1,0 +1,19 @@
+</table>
+<table style="width:100%">
+    <!-- table header -->
+    <thead>
+      <tr>
+          {% for col in colnames %}
+          <th>{{ col }}</th>
+          {% endfor %}
+      </tr>
+  </thead>
+    <!-- table rows -->
+    {% for dict_item in list_data %}
+    <tr>
+       {% for value in dict_item.values() %}
+       <td> {{ value }} </td>
+       {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
